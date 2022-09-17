@@ -1,0 +1,70 @@
+#navbar{
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+    padding: 0px 20px 0px 20px;
+    margin: -8px;
+    margin-bottom: 10px;
+}
+#navbar>div:first-child{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+#navbar>div:first-child>div:last-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#navbar>div:first-child>div:first-child>img{
+    height: 30px;
+    width: 30px;
+}
+#navbar img{
+    height: 50px;
+    width: 50px;
+}
+sup{
+    font-size: 10px;
+    color: grey;
+}
+h2{
+    color: white;
+}
+#navbar>div:nth-child(2){
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+}
+#navbar>div:nth-child(2)>input{
+    height: 40px;
+    background-color: #121212;
+    color: #838383;
+    border: 0;
+    font-size: 15px;
+}
+#navbar>div:nth-child(2)>button{
+    height: 43px;
+    border: 0;
+    background-color: #323232;
+}
+#navbar>div:nth-child(2)>button>img{
+    height: 42px;
+    background-color: #323232;
+}
+#navbar>div:nth-child(2)>img{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+#navbar>div:nth-child(3){
+    display: grid;
+    align-items: center;
+}
+#navbar>div:nth-child(3)>img{
+    width: 100%;
+}
+
